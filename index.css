@@ -1,0 +1,75 @@
+/* CSS - Fundo escuro com detalhes dourados */
+body {
+    font-family: 'Georgia', serif; /* Fonte mais clássica */
+    background-color: #1a1a1a; /* Cor de fundo escuro */
+    color: white; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: gold; /* Cor dourada para o texto do cabeçalho */
+    text-align: center;
+    border-bottom: 2px solid gold; /* Linha dourada embaixo */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.santo {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Limita a largura para não esticar demais */
+    border: 2px solid gold; /* Borda dourada */
+    background-color: #2a2a2a; /* Fundo levemente mais claro para os santos */
+    border-radius: 10px; /* Bordas arredondadas */
+    transition: transform 0.3s ease-in-out; /* Efeito suave de transformação */
+}
+
+.santo img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    border: 2px solid gold; /* Borda dourada nas imagens */
+    transition: transform 0.3s ease-in-out; /* Efeito suave de transformação */
+}
+
+.santo:hover {
+    transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+}
+
+.santo img:hover {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-top: 2px solid gold; /* Linha dourada em cima */
+}
+
+footer p {
+    margin: 0;
+}
+
+button {
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffcc00; /* Cor do botão ao passar o mouse */
+}
